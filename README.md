@@ -8,7 +8,7 @@ Install  `hygen` globally:
 
 To install the generators run:
 ```
-  hygen-add hygen-react-ts-rsturim
+  hygen-add react-ts-rsturim
 ```
 
 For your convenience add these command to your `package.json` scripts block:
