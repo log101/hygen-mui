@@ -1,8 +1,14 @@
 # hygen-react-ts-rsturim
 
-To install run:
+Install  `hygen` globally:
+
 ```
-  hygen-add https://github.com/rsturim/hygen-react-ts-rsturim
+  yarn global add hygen-add
+```
+
+To install the generators run:
+```
+  hygen-add hygen-react-ts-rsturim
 ```
 
 For your convenience add these command to your `package.json` scripts block:
