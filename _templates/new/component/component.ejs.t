@@ -1,5 +1,5 @@
 ---
-to:  <%= path %>/<%= h.inflection.camelize(name, false) %>/<%= h.inflection.camelize(name, false) %>.tsx
+to:  <%= locals.path %>/<%= h.inflection.camelize(name, false) %>/<%= h.inflection.camelize(name, false) %>.<%= componentExt %>
 ---
 <% componentName = h.inflection.camelize(name, false) -%>
 <% klassName = h.inflection.camelize(componentName, true) -%>

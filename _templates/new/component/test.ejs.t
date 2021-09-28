@@ -4,12 +4,13 @@ to: '<% if(locals.includeTest) { %><%= path %>/<%= h.inflection.camelize(name, f
 <% componentName = h.inflection.camelize(name, false) -%>
 <% cssClassName = h.changeCase.paramCase(componentName, true) -%>
 import React from 'react';
-import { render } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import <%= componentName %> from '../<%= componentName %>';
 
 describe('<%= componentName %>', () => {
     it('should render the component', () => {
-        const queryByTestId = render(<<%= componentName %> />);
-        expect(queryByTestId('<%= cssClassName %>-component')).toBeTruthy();
+        render(<<%= componentName %> />);
+        const element = screen.getByTestId(/<%= cssClassName %>-component/i);
+        expect(element).toBeInTheDocument();
     });
 });
