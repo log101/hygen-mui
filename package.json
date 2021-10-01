@@ -1,25 +1,25 @@
 {
-    "name": "hygen-react-ts-rsturim",
-    "version": "1.0.0",
-    "description": "custom hygen generator for react with typescript projects",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/rsturim/hygen-react-ts-rsturim.git"
-    },
-    "author": "rsturim",
-    "keywords": [
-        "hygen",
-        "generator",
-        "react",
-        "typescript"
-    ],
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/rsturim/hygen-react-ts-rsturim/issues"
-    },
-    "homepage": "https://github.com/rsturim/hygen-react-ts-rsturim#readme"
+  "name": "@rsturim/hygen-react-ts",
+  "version": "1.0.1",
+  "description": "custom hygen generator for react with typescript projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsturim/hygen-react-ts-rsturim.git"
+  },
+  "author": "Rich Sturim <sturim@hotmail.com>",
+  "keywords": [
+    "hygen",
+    "generator",
+    "react",
+    "typescript"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsturim/hygen-react-ts-rsturim/issues"
+  },
+  "homepage": "https://github.com/rsturim/hygen-react-ts-rsturim#readme"
 }
