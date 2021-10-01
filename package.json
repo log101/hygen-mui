@@ -1,6 +1,6 @@
 {
   "name": "@rsturim/hygen-react-ts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "custom hygen generator for react with typescript projects",
   "main": "index.js",
   "scripts": {
