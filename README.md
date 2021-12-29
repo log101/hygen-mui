@@ -1,13 +1,15 @@
 # hygen-react-ts-rsturim
 
-Install  `hygen` globally:
+Install `hygen` globally:
 
 ```
-  yarn global add hygen-add
+  npm install hygen-add -g
 ```
 
 To install the generators run:
+
 ```
+  npm install hygen -D
   hygen-add react-ts-rsturim
 ```
 
@@ -18,10 +20,4 @@ For your convenience add these command to your `package.json` scripts block:
       "new:component": "hygen new component",
       "new:test": "hygen new test",
   }
-```
-
-If you are running create-react-app you may have to install node-sass
-
-```
-  yarn add node-sass
 ```
